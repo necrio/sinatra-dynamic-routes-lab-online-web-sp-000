@@ -42,7 +42,14 @@ class App < Sinatra::Base
   "#{@w1} #{@w2} #{@w3} #{@w4} #{@w5}."
   
   
-  
+  get '/:operation/:number1/:number2' do 
+    @number1 = params[:number1]
+    @number2 = params[:number2] 
+    
+    
+    
+    
+  end
 end 
 
 end
